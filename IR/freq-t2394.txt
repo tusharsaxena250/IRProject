@@ -1,0 +1,14 @@
+dep:3
+pybinari:3
+src:3
+domainadaptationdatasetsdatasetfactori:3
+domainadaptationpixeldomainadaptationpixeldamodel:3
+baselinetrainpi:2
+licensesnotic:2
+baselinetrain:2
+baselineevalpi:2
+domainadaptationpixeldomainadaptationpixeldapreprocess:3
+baselineev:2
+name:3
+apach:2
+=:7
