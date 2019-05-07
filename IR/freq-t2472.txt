@@ -1,0 +1,8 @@
+out=datafsnsvalidationvalidationof:65
+out=datafsnstesttestof:65
+httpdownloadtensorfloworgdatafsnstraintrainof:513
+httpdownloadtensorfloworgdatafsnscharsetsize=txt:2
+httpdownloadtensorfloworgdatafsnstesttestof:65
+out=datafsnstraintrainof:513
+httpdownloadtensorfloworgdatafsnsvalidationvalidationof:65
+out=datafsnscharsetsize=txt:2

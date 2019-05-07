@@ -1,0 +1,6 @@
+dt:1
+nn:2
+vbp:2
+prp:2
+cc:1
+nn:2

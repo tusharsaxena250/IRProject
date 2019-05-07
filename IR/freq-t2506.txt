@@ -1,0 +1,3 @@
+imtxt:2
+workspacenam:2
+=:2

@@ -1,0 +1,5 @@
+buy:2
+clue:2
+book:2
+i:1
+sell:2

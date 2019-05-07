@@ -1,0 +1,3 @@
+tunecorpuspath:2
+traincorpuspath:2
+testdatasmallconl:3

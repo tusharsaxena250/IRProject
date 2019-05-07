@@ -1,0 +1,9 @@
+pyopengl:2
+pyopenglacceler:2
+six:2
+numpi:2
+pillow:2
+opencvpython:2
+scipi:2
+networkx:2
+scikitimag:2

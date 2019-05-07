@@ -1,0 +1,13 @@
+mlperfcompliance==:2
+pycpuinfo:2
+>:10
+psutil:2
+kaggl:2
+type:2
+numpi:2
+googlecloudbigqueri:2
+googleapipythoncli:2
+panda:2
+scipi:2
+oauthclient:2
+=:10

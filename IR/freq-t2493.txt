@@ -1,0 +1,6 @@
+>:5
+sox:2
+soundfil:2
+nltk:2
+=:5
+panda:2
