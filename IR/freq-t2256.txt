@@ -1,0 +1,12 @@
+verb:2
+punct:2
+pron:2
+dt:1
+det:2
+conj:2
+nn:2
+vbp:2
+noun:3
+prp:2
+cc:1
+nn:2
