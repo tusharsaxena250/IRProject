@@ -2,9 +2,9 @@
 
 
 DIR1 = "A:/IR1/F5000/New Folder"
-DIR2 = "A:/IR1/F5000/New Folder2"
-DIR3 = "A:/IR1/F5000/New Folder3"
-DIR4 = "A:/IR1/F5000/New Folder4"
+# DIR2 = "A:/IR1/F5000/New Folder2"
+# DIR3 = "A:/IR1/F5000/New Folder3"
+# DIR4 = "A:/IR1/F5000/New Folder4"
 
 def make_inverted(DIR):
     keywords=[]
@@ -37,7 +37,7 @@ def make_inverted(DIR):
     ii.close()
     
 
-#make_inverted(DIR1)
+make_inverted(DIR1)
 #make_inverted(DIR2)
 #make_inverted(DIR3)
 #make_inverted(DIR4)
