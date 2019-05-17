@@ -1,4 +1,4 @@
-import invertedindex as qt
+import searchforword as qt
 from tkinter import *
 import tkinter.messagebox
 
