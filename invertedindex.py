@@ -1,7 +1,7 @@
 #import preprocessing
 
-
-DIR1 = "A:/IR1/F5000/New Folder"
+#The directories you want to see files from. Inverted index-ing them. If it is for the same system. Use only one of them. You can also make invert-index files for all the systems by specifing them the DIRn.
+DIR1 = "A:/IR1/F5000/New Folder" 
 # DIR2 = "A:/IR1/F5000/New Folder2"
 # DIR3 = "A:/IR1/F5000/New Folder3"
 # DIR4 = "A:/IR1/F5000/New Folder4"
@@ -41,52 +41,3 @@ make_inverted(DIR1)
 #make_inverted(DIR2)
 #make_inverted(DIR3)
 #make_inverted(DIR4)
-
-
-def search_word(word):
-    file=open(DIR1+"/invertedindex.txt","r")
-    for line in file:
-        line = line.split(":")
-        if word in line[0]:
-            l = line[1].split(",")
-            for i in l:
-                print(DIR1+"/"+i)
-            break
-        
-    file.close()
-    
-    file=open(DIR2+"/invertedindex.txt","r")
-    for line in file:
-        line = line.split(":")
-        if word in line[0]:
-            l = line[1].split(",")
-            for i in l:
-                print(DIR2+"/"+i)
-            break
-        
-    file.close()
-    
-    file=open(DIR3+"/invertedindex.txt","r")
-    for line in file:
-        line = line.split(":")
-        if word in line[0]:
-            l = line[1].split(",")
-            for i in l:
-                print(DIR3+"/"+i)
-            break
-        
-    file.close()
-    
-    file=open(DIR4+"/invertedindex.txt","r")
-    for line in file:
-        line = line.split(":")
-        if word in line[0]:
-            l = line[1].split(",")
-            for i in l:
-                print(DIR4+"/"+i)
-            break
-        
-    file.close()
-    
-#word=input("Enter a word : ")
-#search_word(word)
