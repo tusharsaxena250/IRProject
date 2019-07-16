@@ -1,10 +1,10 @@
 #import preprocessing
 
 #The directories you want to see files from. Inverted index-ing them. If it is for the same system. Use only one of them. You can also make invert-index files for all the systems by specifing them the DIRn.
-DIR1 = "A:/IR1/F5000/New Folder" 
-# DIR2 = "A:/IR1/F5000/New Folder2"
-# DIR3 = "A:/IR1/F5000/New Folder3"
-# DIR4 = "A:/IR1/F5000/New Folder4"
+DIR1 = "...dest_Folder..." 
+# DIR2 = "...dest_Folder..."
+# DIR3 = "...dest_Folder..."
+# DIR4 = "...dest_Folder..."
 
 def make_inverted(DIR):
     keywords=[]
