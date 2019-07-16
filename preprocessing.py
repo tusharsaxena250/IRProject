@@ -13,7 +13,7 @@ def stem_tokens(tokens, stemmer):
 stop_words = set(stopwords.words('english'))
 for i in range(2572): #2572
     try:
-        file[i] = open("A:/IR1/F5000/New Folder/file"+str(i+1)+".txt",encoding="ISO-8859-1")
+        file[i] = open("...dest_Folder.../file"+str(i+1)+".txt",encoding="ISO-8859-1")
         line = file[i].read()
         text = "".join([ch for ch in line if ch not in [",",".","(",")","-",":","?","#","[","]","*",";","§","\"","`","/","_","'",
                                                     "1","2","3","4","5","6","7","8","9","0","!","{","}"]])
@@ -21,7 +21,7 @@ for i in range(2572): #2572
         stems = stem_tokens(tokens, stemmer)
         for r in stems:
             if not r in stop_words:
-                appendFile = open('A:/IR1/F5000/New Folder/f-t'+str(i+1)+'.txt', 'a')
+                appendFile = open('...dest_Folder.../f-t'+str(i+1)+'.txt', 'a')
                 appendFile.write(" "+r)
                 appendFile.close()
     except Exception: pass
@@ -30,13 +30,13 @@ for i in range(2572): #2572
         str_list = str1.split()
         unique_words = set(str_list)
         for words in unique_words:
-            appendFile = open('A:/IR1/F5000/New Folder/freq-t'+str(i+1)+'.txt', 'a')   
+            appendFile = open('...dest_Folder.../freq-t'+str(i+1)+'.txt', 'a')   
             words = words.lower()
             appendFile.write( words + ':'+str(str_list.count(words)+1)+"\n" )
             appendFile.close()
 for i in range(2572): #2572
     try:
-        file[i] = open("A:/IR1/F5000/New Folder/f-t"+str(i+1)+".txt",encoding="ISO-8859-1")
+        file[i] = open("...dest_Folder.../f-t"+str(i+1)+".txt",encoding="ISO-8859-1")
         line = file[i].read()
         words = word_tokenize(line)
         freq(line)
